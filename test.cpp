@@ -1,8 +1,14 @@
 #include <iostream>
-
+#include <windows.h>
+int doSomething() {
+    return 0;       // This is a comment
+        // this is a comment 2
+}
 int main() {
+   
     std::cout << "Hello, World!" << std::endl;
-
+    Sleep(1000);
+    
     // This is a comment
     // that spans multiple lines
    
